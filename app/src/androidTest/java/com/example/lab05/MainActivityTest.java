@@ -70,7 +70,7 @@ public class MainActivityTest {
         //find the view
         ViewInteraction appcompactEditText= onView(withId(R.id.passwordEditText));
         //type the password nidhi@1234
-        appcompactEditText.perform(replaceText("nidhi@1234"));
+        appcompactEditText.perform(replaceText("harman633@"));
         //find the Button
         ViewInteraction button= onView(withId(R.id.checkButton));
         //click the Button
@@ -91,7 +91,7 @@ public class MainActivityTest {
         //find the view
         ViewInteraction AppcompactEditText= onView(withId(R.id.passwordEditText));
         //type the password NIDHI@1234
-        AppcompactEditText.perform(replaceText("NIDHI@1234"));
+        AppcompactEditText.perform(replaceText("HARMAN633@"));
         //find the Button
         ViewInteraction button= onView(withId(R.id.checkButton));
         //click the Button
@@ -107,7 +107,7 @@ public class MainActivityTest {
         //find the view
         ViewInteraction appcompactEditText= onView(withId(R.id.passwordEditText));
         //type the password Nidhi@#
-        appcompactEditText.perform(replaceText("Nidhi@#"));
+        appcompactEditText.perform(replaceText("Harman633@#"));
         //find the Button
         ViewInteraction button= onView(withId(R.id.checkButton));
         //click the Button
@@ -123,7 +123,7 @@ public class MainActivityTest {
         //find the view
         ViewInteraction appcompactEditText = onView(withId(R.id.passwordEditText));
         //type the password Nidhi1234
-        appcompactEditText.perform(replaceText("Nidhi1234"));
+        appcompactEditText.perform(replaceText("Harman633@"));
         //find the Button
         ViewInteraction button = onView(withId(R.id.checkButton));
         //click the Button
